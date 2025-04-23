@@ -24,7 +24,7 @@ export default function AdminDashboard() {
         }
 
         fetchFeedbacks();
-    }, [pagination.page]);
+    }, []);
 
     const fetchFeedbacks = async () => {
         try {

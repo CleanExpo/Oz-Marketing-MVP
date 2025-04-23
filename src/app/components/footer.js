@@ -78,7 +78,7 @@ export default function Footer() {
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                             <div className="text-center">
                                 <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl text-white tracking-normal mb-4">Help Us Improve</h4>
-                                <p className="text-white/70 text-lg ">Your feedback helps us make OZ-Invoice better. Let us know what features you'd like to see!</p>
+                                <p className="text-white/70 text-lg ">Your feedback helps us make OZ-Invoice better. Let us know what features you&apos;d like to see!</p>
                             </div>
 
                             <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6">
@@ -122,7 +122,7 @@ export default function Footer() {
                                             />
                                         </div>
                                         <div>
-                                            <label className="block text-white mb-2">Features You're Interested In:</label>
+                                            <label className="block text-white mb-2">Features You&apos;re Interested In:</label>
                                             <div className="grid grid-cols-2 gap-2">
                                                 {featureOptions.map((feature) => (
                                                     <label key={feature} className="flex items-center space-x-2 text-white/80">
