@@ -1,5 +1,4 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": ".next",
-  "ignoreCommand": "echo 'No changes to ignore'"
+  "outputDirectory": ".next"
 }
