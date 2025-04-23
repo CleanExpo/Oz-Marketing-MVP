@@ -1,0 +1,31 @@
+{
+  "name": "oz-invoice",
+  "version": "1.0.0",
+  "description": "Oz Invoice System",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.6.0",
+    "lucide-react": "^0.503.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-icons": "^4.11.0",
+    "react-modal-video": "^2.0.1",
+    "react-scroll": "^1.8.9",
+    "react-type-animation": "^3.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "prisma": "^6.6.0",
+    "tailwindcss": "latest"
+  }
+}
